@@ -6,3 +6,12 @@
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
+
+# Local app runtime and generated data
+.gradio/
+.langgraph_api/
+*.db
+*.db-shm
+*.db-wal
+temp_audio.mp3
+train_result.json
